@@ -3,9 +3,12 @@ source "https://rubygems.org"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.1"
 # Bootstrapを導入。異変あればここを確認
-gem 'bootstrap', '~> 5.0.0'
+#gem 'bootstrap', '~> 5.0.0'
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
-gem "propshaft"
+gem 'propshaft', '~> 1.0'  
+#25/02/03にSprockets (4.2.1) と sprockets-rails (3.5.2) の組み合わせは、互換性の問題が原因でエラーが発生している可能性があるとのことで追加
+
+
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", ">= 2.1"
 # Use the Puma web server [https://github.com/puma/puma]
