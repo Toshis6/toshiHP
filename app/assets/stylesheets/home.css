@@ -1,0 +1,157 @@
+html, body {
+    margin: 0; 
+    padding: 0; 
+}    
+
+.header-container {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: rgba(34, 49, 50, 0.9); 
+  color: #ffffff; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.header-left {
+  padding-left: 25px;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  color:#ffffff ;
+}
+.header-left i {
+  color: #ffffff; 
+  font-size: 28px; 
+  transition: color 0.3s;
+}    
+.header-left i:hover{
+  color: rgba(255, 255, 255, 0.8); 
+}  
+.header-left:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s; 
+  color: rgba(255, 255, 255, 0.8);
+}
+.header-right {
+  padding: 0;
+  display: flex;
+  transition: all 0.5s;
+  padding-right:10px;
+}
+
+.header-right a {
+  padding: 13px; 
+  color: #ffffff; 
+  text-decoration: none;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.3); 
+}
+
+.header-p1, .header-p2 {
+  padding-right: 30px;
+}  
+
+.header-p1:hover, .header-p2:hover {
+  background-color: rgba(95, 156, 158, 0.4); 
+}
+footer{
+  border-top:solid 1px #eee; 
+  height:50px;
+  padding-top:10px; 
+  line-height: 50px;                 
+  text-align: center;  
+}
+.footer-left{
+  float: left;
+  font-size:18px; 
+  padding-left:10px;
+}
+.footer-light{
+  float: right;
+  font-size:15px;
+  padding-right:10px;  
+}
+.main{
+  height:470px;  
+}
+.main-container{ 
+  display: flex;
+  align-items: center;
+}
+.main-left{
+  padding-right:30px;
+}    
+.main-contents {
+    position: relative; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.picture{
+  max-width: 100%;
+  height:auto;  
+  padding-left:50px;
+} 
+
+.back-img {
+  display:block; 
+  width: 100%; 
+  height: auto; 
+}
+  
+.content {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  color: black; 
+  z-index: 1; 
+}
+.content p{
+  font-size:15px;  
+}
+.lesson-wrapper{
+  height:580px;
+  background-color: #f7f7f7;  
+  text-align:center;
+} 
+
+.heading{
+  padding: 50px 0 20px 0;
+  font-weight:normal;  
+}
+.lessons{
+  width: 100%;  
+  padding-left:10px;    
+}
+.lesson{
+  float:left; 
+  width:33%; 
+}
+.lesson-icon{  
+  position:relative; 
+  max-width: 100%;
+  height:auto;
+  overflow: hidden;
+}
+.lesson-icon img{
+  width:100%;
+  height:auto;  
+}
+.lesson-icon p{
+  position:absolute;
+  top:37%;
+  left:50%;  
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size: 20px;
+}
+.txt-contents{
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #848385;  
+}

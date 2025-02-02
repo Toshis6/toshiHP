@@ -1,0 +1,77 @@
+html, body {
+    margin: 0; /* デフォルトのマージンをリセット */
+    padding: 0; /* デフォルトのパディングをリセット */
+}    
+
+.header-container {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: rgba(34, 49, 50, 0.9); /* ヘッダー全体の背景色に透明度を設定 */
+  color: #ffffff; 
+  display: flex; /* フレックスボックスを使用 */
+  align-items: center; /* 垂直方向に中央揃え */
+  justify-content: space-between; /* 左右に要素を配置 */  
+}
+
+.header-left {
+  padding-left: 25px;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  color:#ffffff ;
+}
+.header-left i {
+  color: #ffffff; /* アイコンの色 */
+  font-size: 28px; /* アイコンのサイズ */
+  transition: color 0.3s;
+}    
+.header-left i:hover {
+  color: rgba(255, 255, 255, 0.8); /* ホバー時の色 */
+  }
+.header-left:hover {
+  transform: scale(1.1); /* 少し拡大 */
+  transition: transform 0.3s; /* スムーズなトランジション */
+  color: rgba(255, 255, 255, 0.8);
+}
+.header-right {
+  padding: 0;
+  display: flex;
+  transition: all 0.5s;
+  padding-right:10px;
+}
+
+.header-right a {
+  padding: 13px; /* 上下のパディングを追加 */
+  color: #ffffff; 
+  text-decoration: none;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.3); /* リンクの背景色に透明度を設定 */
+}
+
+.header-p1, .header-p2 {
+  padding-right: 30px;
+}  
+
+.header-p1:hover, .header-p2:hover {
+  background-color: rgba(95, 156, 158, 0.4); 
+}
+h1{
+  text-align: center;    
+}
+footer{
+  border-top:solid 1px #eee; 
+  height:50px;
+  padding-top:10px; 
+  line-height: 50px;                 
+  text-align: center;  
+}
+.footer-left{
+  float: left;
+  font-size:18px; 
+  padding-left:10px;
+}
+.footer-light{
+  float: right;
+  font-size:15px;
+  padding-right:10px;  
+}
