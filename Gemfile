@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.0.1"
+gem "rails", "~> 8.0.2"
 # Bootstrapを導入。異変あればここを確認
 #gem 'bootstrap', '~> 5.0.0'
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
